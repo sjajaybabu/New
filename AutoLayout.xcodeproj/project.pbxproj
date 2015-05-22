@@ -14,6 +14,13 @@
 		59F64DCD1B006BC400E92D4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F64DCC1B006BC400E92D4A /* Images.xcassets */; };
 		59F64DD01B006BC400E92D4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 59F64DCE1B006BC400E92D4A /* LaunchScreen.xib */; };
 		59F64DDC1B006BC400E92D4A /* AutoLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F64DDB1B006BC400E92D4A /* AutoLayoutTests.m */; };
+		59FB80231B047A9A00AA501F /* left_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 59FB801C1B047A9A00AA501F /* left_arrow.png */; };
+		59FB80241B047A9A00AA501F /* left_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59FB801D1B047A9A00AA501F /* left_arrow@2x.png */; };
+		59FB80251B047A9A00AA501F /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 59FB801E1B047A9A00AA501F /* right_arrow.png */; };
+		59FB80261B047A9A00AA501F /* right_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59FB801F1B047A9A00AA501F /* right_arrow@2x.png */; };
+		59FB80271B047A9A00AA501F /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB80211B047A9A00AA501F /* CKCalendarView.m */; };
+		59FDCF001B0F29FD0088DD49 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FDCEFD1B0F29FD0088DD49 /* HPGrowingTextView.m */; };
+		59FDCF011B0F29FD0088DD49 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FDCEFF1B0F29FD0088DD49 /* HPTextViewInternal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,16 @@
 		59F64DD51B006BC400E92D4A /* AutoLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F64DDA1B006BC400E92D4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59F64DDB1B006BC400E92D4A /* AutoLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTests.m; sourceTree = "<group>"; };
+		59FB801C1B047A9A00AA501F /* left_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_arrow.png; sourceTree = "<group>"; };
+		59FB801D1B047A9A00AA501F /* left_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left_arrow@2x.png"; sourceTree = "<group>"; };
+		59FB801E1B047A9A00AA501F /* right_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_arrow.png; sourceTree = "<group>"; };
+		59FB801F1B047A9A00AA501F /* right_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right_arrow@2x.png"; sourceTree = "<group>"; };
+		59FB80201B047A9A00AA501F /* CKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCalendarView.h; sourceTree = "<group>"; };
+		59FB80211B047A9A00AA501F /* CKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCalendarView.m; sourceTree = "<group>"; };
+		59FDCEFC1B0F29FD0088DD49 /* HPGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGrowingTextView.h; sourceTree = "<group>"; };
+		59FDCEFD1B0F29FD0088DD49 /* HPGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGrowingTextView.m; sourceTree = "<group>"; };
+		59FDCEFE1B0F29FD0088DD49 /* HPTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTextViewInternal.h; sourceTree = "<group>"; };
+		59FDCEFF1B0F29FD0088DD49 /* HPTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTextViewInternal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +98,20 @@
 		59F64DBE1B006BC400E92D4A /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				59FDCEFC1B0F29FD0088DD49 /* HPGrowingTextView.h */,
+				59FDCEFD1B0F29FD0088DD49 /* HPGrowingTextView.m */,
+				59FDCEFE1B0F29FD0088DD49 /* HPTextViewInternal.h */,
+				59FDCEFF1B0F29FD0088DD49 /* HPTextViewInternal.m */,
 				59F64DC31B006BC400E92D4A /* AppDelegate.h */,
 				59F64DC41B006BC400E92D4A /* AppDelegate.m */,
 				59F64DC61B006BC400E92D4A /* ViewController.h */,
 				59F64DC71B006BC400E92D4A /* ViewController.m */,
+				59FB801C1B047A9A00AA501F /* left_arrow.png */,
+				59FB801D1B047A9A00AA501F /* left_arrow@2x.png */,
+				59FB801E1B047A9A00AA501F /* right_arrow.png */,
+				59FB801F1B047A9A00AA501F /* right_arrow@2x.png */,
+				59FB80201B047A9A00AA501F /* CKCalendarView.h */,
+				59FB80211B047A9A00AA501F /* CKCalendarView.m */,
 				59F64DC91B006BC400E92D4A /* Main.storyboard */,
 				59F64DCC1B006BC400E92D4A /* Images.xcassets */,
 				59F64DCE1B006BC400E92D4A /* LaunchScreen.xib */,
@@ -199,8 +226,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59FB80241B047A9A00AA501F /* left_arrow@2x.png in Resources */,
 				59F64DCB1B006BC400E92D4A /* Main.storyboard in Resources */,
+				59FB80261B047A9A00AA501F /* right_arrow@2x.png in Resources */,
+				59FB80251B047A9A00AA501F /* right_arrow.png in Resources */,
 				59F64DD01B006BC400E92D4A /* LaunchScreen.xib in Resources */,
+				59FB80231B047A9A00AA501F /* left_arrow.png in Resources */,
 				59F64DCD1B006BC400E92D4A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59FDCF011B0F29FD0088DD49 /* HPTextViewInternal.m in Sources */,
 				59F64DC81B006BC400E92D4A /* ViewController.m in Sources */,
+				59FDCF001B0F29FD0088DD49 /* HPGrowingTextView.m in Sources */,
 				59F64DC51B006BC400E92D4A /* AppDelegate.m in Sources */,
+				59FB80271B047A9A00AA501F /* CKCalendarView.m in Sources */,
 				59F64DC21B006BC400E92D4A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,6 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AutoLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +450,7 @@
 				59F64DE11B006BC400E92D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59F64DE21B006BC400E92D4A /* Build configuration list for PBXNativeTarget "AutoLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +459,7 @@
 				59F64DE41B006BC400E92D4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

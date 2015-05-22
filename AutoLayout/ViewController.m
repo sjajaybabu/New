@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "CKCalendarView.h"
 
 @interface ViewController ()
+
 
 @end
 
@@ -16,6 +18,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"PRAISE THE LORD!HOSANNA");
+
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
