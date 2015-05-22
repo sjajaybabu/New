@@ -22,6 +22,8 @@
     NSLog(@"PRAISE THE LORD!HOSANNA");
     
     NSLog(@"PRAISE THE LORD!HOSANNA HALLELUAH");
+    
+    NSLog(@"Halleluah!");
 
     
     // Do any additional setup after loading the view, typically from a nib.
