@@ -20,6 +20,8 @@
     [super viewDidLoad];
     
     NSLog(@"PRAISE THE LORD!HOSANNA");
+    
+    NSLog(@"PRAISE THE LORD!HOSANNA HALLELUAH");
 
     
     // Do any additional setup after loading the view, typically from a nib.
