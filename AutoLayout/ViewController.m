@@ -23,7 +23,7 @@
     
     NSLog(@"PRAISE THE LORD!HOSANNA HALLELUAH");
     
-    NSLog(@"Halleluah!");
+    NSLog(@"Halleluah Hosanna Hosanna Hosanna!");
     
     NSLog(@"Hosanna Halleluah");
     
