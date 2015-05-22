@@ -19,8 +19,6 @@
 		59FB80251B047A9A00AA501F /* right_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 59FB801E1B047A9A00AA501F /* right_arrow.png */; };
 		59FB80261B047A9A00AA501F /* right_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59FB801F1B047A9A00AA501F /* right_arrow@2x.png */; };
 		59FB80271B047A9A00AA501F /* CKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB80211B047A9A00AA501F /* CKCalendarView.m */; };
-		59FDCF001B0F29FD0088DD49 /* HPGrowingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FDCEFD1B0F29FD0088DD49 /* HPGrowingTextView.m */; };
-		59FDCF011B0F29FD0088DD49 /* HPTextViewInternal.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FDCEFF1B0F29FD0088DD49 /* HPTextViewInternal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +51,6 @@
 		59FB801F1B047A9A00AA501F /* right_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right_arrow@2x.png"; sourceTree = "<group>"; };
 		59FB80201B047A9A00AA501F /* CKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKCalendarView.h; sourceTree = "<group>"; };
 		59FB80211B047A9A00AA501F /* CKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKCalendarView.m; sourceTree = "<group>"; };
-		59FDCEFC1B0F29FD0088DD49 /* HPGrowingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPGrowingTextView.h; sourceTree = "<group>"; };
-		59FDCEFD1B0F29FD0088DD49 /* HPGrowingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPGrowingTextView.m; sourceTree = "<group>"; };
-		59FDCEFE1B0F29FD0088DD49 /* HPTextViewInternal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HPTextViewInternal.h; sourceTree = "<group>"; };
-		59FDCEFF1B0F29FD0088DD49 /* HPTextViewInternal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HPTextViewInternal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +92,6 @@
 		59F64DBE1B006BC400E92D4A /* AutoLayout */ = {
 			isa = PBXGroup;
 			children = (
-				59FDCEFC1B0F29FD0088DD49 /* HPGrowingTextView.h */,
-				59FDCEFD1B0F29FD0088DD49 /* HPGrowingTextView.m */,
-				59FDCEFE1B0F29FD0088DD49 /* HPTextViewInternal.h */,
-				59FDCEFF1B0F29FD0088DD49 /* HPTextViewInternal.m */,
 				59F64DC31B006BC400E92D4A /* AppDelegate.h */,
 				59F64DC41B006BC400E92D4A /* AppDelegate.m */,
 				59F64DC61B006BC400E92D4A /* ViewController.h */,
@@ -250,9 +240,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59FDCF011B0F29FD0088DD49 /* HPTextViewInternal.m in Sources */,
 				59F64DC81B006BC400E92D4A /* ViewController.m in Sources */,
-				59FDCF001B0F29FD0088DD49 /* HPGrowingTextView.m in Sources */,
 				59F64DC51B006BC400E92D4A /* AppDelegate.m in Sources */,
 				59FB80271B047A9A00AA501F /* CKCalendarView.m in Sources */,
 				59F64DC21B006BC400E92D4A /* main.m in Sources */,
